@@ -1,5 +1,5 @@
 flask==2.0.1
-ta-lib==0.4.9
+ta-lib==0.4.21
 pandas==1.3.3
 yfinance==0.1.63
 
