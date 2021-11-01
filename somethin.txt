@@ -1,3 +1,0 @@
--Simplicity - this is important because 
--Reusability - This is important because 
--Scability - This is important because 
