@@ -1,1 +1,1 @@
-web: gunicorn candlestickscreener.wsgi
+web: gunicorn app.py
