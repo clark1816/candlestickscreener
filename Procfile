@@ -1,1 +1,1 @@
-web: gunicorn candlestickscreener:app.py
+web: python app.py
