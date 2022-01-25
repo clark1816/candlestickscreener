@@ -23,8 +23,8 @@ def is_breaking_out(df, percentage=2.5):
 
     return False
 
-for filename in os.listdir('\dataset\daily'):
-    df = pandas.read_csv('\dataset\daily{}'.format(filename))
+for filename in os.listdir('dataset/daily'):
+    df = pandas.read_csv('dataset/daily/{}.csv'.format(filename))
     
     if is_consolidating(df, percentage=2.5):
         print("{} is consolidating".format(filename))
